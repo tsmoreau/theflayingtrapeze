@@ -40,6 +40,7 @@ export default function Home() {
       provider
     );
     const dataArray = await marketContract.fetchOnSaleItems();
+    let string = null;
 
     const data3 = dataArray
       .slice()
@@ -386,8 +387,8 @@ export default function Home() {
                   <ul>
                     <li className="flex justify-center">
                       <a href={`/item/${encodeURIComponent(nft.tokenId)}`}>
-                        <li className="flex justify-center w-full overflow-hidden">
-                          <p className="font-xs tracking-tight flex justify-center text-2xl text-gray-800 w-80 mt-1 truncate">
+                        <li className="flex mx-auto justify-center w-84 ">
+                          <p className="tracking-tight mt-1 text-2xl w-auto truncate">
                             {nft.name}
                           </p>
                         </li>
