@@ -41,7 +41,7 @@ export default function Footer() {
               </a>
             </li>
             <div className="">
-              <span className="px-1 flex pt-5 pb-2">
+              <span className="px-1 flex pt-5 pb-2 px-2">
                 <a href="https://discord.com">
                   <svg
                     width="18"

@@ -952,7 +952,7 @@ export default function Home() {
                                     static
                                     className="relative z-999 mx-auto"
                                   >
-                                    <div className="absolute rounded border -top-48 transform -right-7 z-999">
+                                    <div className="absolute rounded border -top-48 transform -right-28 translate-x-2 z-999">
                                       <div className="flex mx-auto w-60 h-auto bg-white">
                                         <ul className="text-gray-500 font-light flex flex-col mx-auto text-sm py-2 px-6 py-2">
                                           <li className="font-medium rounded-xl py-1 mb-1 mt-1 px-3 w-full flex mx-auto text-center">

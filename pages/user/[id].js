@@ -146,7 +146,7 @@ export default function Home() {
         let item = {
           price,
           tokenId: i.tokenId.toNumber(),
-          minter: i.minter,
+          minter: i.owner,
           owner: i.owner,
           image: IPFSgateway + meta.data.image.substring(7),
           name: meta.data.name,
